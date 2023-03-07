@@ -4,133 +4,184 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+
     <title>Document</title>
   </head>
   <body>
     <!-- Wrapper -->
-    <div>
+    <div class="wrapper">
       <!-- Main content -->
-      <div>
+      <div class="main-content">
         <!-- About me -->
-        <div>
-          <h2>Junior QA MANUAL</h2>
-          <h1>Vitalii Kasianchik</h1>
+        <div class="about-me-conteiner">
+          <h2 class="my-profession">Junior QA MANUAL</h2>
+          <h1 class="my-name">Vitalii Kasianchik</h1>
 
-          <p>
+          <p class="my-descr">
             I made this summary as a homework for the QA manul course at HILLEL
             school. Currently, I have no experience and completed projects.
             Therefore, do not believe what is written here!).
           </p>
         </div>
         <!-- My projects -->
-        <div>
-          <h3>Projects</h3>
-          <ol>
-            <li>
-              <a href="">посилання на якийсь крутий проект</a>
+        <div class="projects-conteiner">
+          <h3 class="main-content-title">Projects</h3>
+          <ol lass="project-list">
+            <li class="project-item">
+              <a href="" class="project-item-link">посилання на якийсь крутий проект</a>
             </li>
-            <li>
-              <a href="">ще одне посилання на якийсь крутєйший проект</a>
+            <li class="project-item">
+              <a href="" class="project-item-link">ще одне посилання на якийсь крутєйший проект</a>
             </li>
-            <li>
-              <a href="">ще один крутєйший проект</a>
+            <li class="project-item">
+              <a href="" class="project-item-link">ще один крутєйший проект</a>
             </li>
           </ol>
         </div>
         <!-- Work expirience -->
-        <div>
-          <h3>Work Experience</h3>
+        <div class="work-expirience-conteiner">
+          <h3 class="main-content-title">Work Experience</h3>
 
           <!-- Company 1 -->
 
-          <div>
-            <h4>Junior QA Freelance</h4>
-            <p>September 2019 - up to now | Country</p>
-            <ul>
-              <li>проверка требований к продукту.</li>
-              <li>оценка рисков.</li>
-              <li>планирование идей по улучшению качества продукта.</li>
-              <li>анализ результатов тестирования, etc.</li>
+          <div class="work-expirience-item">
+            <h4 lass="work-expirience-position">Junior QA Freelance</h4>
+            <p class="work-period">September 2019 - up to now | Country</p>
+            <ul class="work-duties-list">
+              <li lass="work-duties">проверка требований к продукту.</li>
+              <li lass="work-duties">оценка рисков.</li>
+              <li lass="work-duties">планирование идей по улучшению качества продукта.</li>
+              <li lass="work-duties">анализ результатов тестирования, etc.</li>
             </ul>
           </div>
 
           <!-- Company 2 -->
-          <div>
-            <h4>Manager Banderogusak & Co.</h4>
-            <p>March 2015 - October 2018 | Country</p>
-            <ul>
-              <li>
+          <div class="work-expirience-item">
+            <h4 class="work-expirience-position">
+              Manager
+              <span class="work-expirience-company">Banderogusak & Co.</span>
+            </h4>
+            <p class="work-period">
+              March 2015 - October 2018
+              <span class="delimiter">|</span>
+              Country
+            </p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod labore et dolore magna aliqua.
               </li>
-              <li>Quis ipsum suspendisse ultrices gravida.</li>
-              <li>Risus commodo viverra maecenas.</li>
+              <li class="work-duties">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="work-duties">Risus commodo viverra maecenas.</li>
             </ul>
           </div>
 
           <!-- Company 3 -->
-          <div>
-            <h4>Manager BestUA Corp.</h4>
-            <p>June 2014 - February 2015 | Country</p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Quis ipsum suspendisse ultrices gravida.</li>
-              <li>Risus commodo viverra maecenas.</li>
+          <div class="work-expirience-item">
+            <h4 class="work-expirience-position">
+              Manager <span class="work-expirience-company">BestUA Corp.</span>
+            </h4>
+            <p class="work-period">
+              June 2014 - February 2015
+              <span class="delimiter">|</span>
+              Country
+            </p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li class="work-duties">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="work-duties">Risus commodo viverra maecenas.</li>
             </ul>
           </div>
         </div>
         <!-- Education -->
-        <div>
-          <h3>Education</h3>
-          <h4>Kyiv National University of Trade and Economics</h4>
-          <b>Economics, management and law</b>
-          <p>September 2005 - June 2011 | Country</p>
+        <div class="education-conteiner">
+          <h3 class="main-content-title">Education</h3>
+          <h4 class="university-title">
+            Kyiv National University of Trade and Economics
+          </h4>
+          <b class="specialization-title">Economics, management and law</b>
+          <p class="study-period">
+            September 2005 - June 2011
+            <span class="delimiter">|</span>
+            Country
+          </p>
         </div>
       </div>
 
       <!-- Sidebar -->
-      <aside>
+      <aside class="sidebar">
         <img
           src="./img/frame-1.JPG"
           alt="My photo"
-          width="300px"
+          width="360px"
           class="my-photo"
         />
 
         <!-- Contacts -->
-        <div>
+        <div class="contacts-container">
           <h3>Contacts</h3>
-          <p>
-            C:
-            <a href="tel:+380952565042">+38 095 256 50 42</a>
+          <p class="contacts-item">
+            <span class="contacts-type">C:</span>
+            <a href="tel:+380952565042" class="conacts-namber"
+              >+38 095 256 50 42</a
+            >
           </p>
-          <p>
-            E:
-            <a href="mailto:tetrasar@gmail.com">tetrasar@gmail.com</a>
+          <p class="contacts-item">
+            <span class="contacts-type">E:</span>
+            <a href="mailto:tetrasar@gmail.com" class="conacts-email"
+              >tetrasar@gmail.com</a
+            >
           </p>
         </div>
 
         <!-- Tech skills -->
-        <div>
-          <h3>Tech Skills</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>Jira</li>
-            <li>MySQL</li>
-            <li>Figma</li>
+        <div class="tech-skills-container">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul lass="skills-list">
+            <li class="skills-list-item">
+              <span class="skills-list-text">HTML5</span> 
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">CSS3</span> 
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">GIT</span> 
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Jira</span> 
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">MySQL</span> 
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Figma</span> 
+            </li>
           </ul>
         </div>
 
         <!-- Soft skills -->
-        <div>
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Scrum</li>
-            <li>Agile</li>
-            <li>GTD</li>
-            <li>Teamwork</li>
+        <div class="soft-skills-container">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <span class="skills-list-text">Scrum</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Agile</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">GTD</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Teamwork</span>
+            </li>
           </ul>
         </div>
       </aside>
